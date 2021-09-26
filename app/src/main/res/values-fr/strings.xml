@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidAssignments</string>
+    <string name="app_name">Devoirs Android</string>
     <string name="hello_message">Bonjour</string>
-    <string name="ButtonText">I\'m a button</string>
+    <string name="ButtonText">Je suis un bouton</string>
+    <string name="login">connexion</string>
+    <string name="loginName">identifiant</string>
+    <string name="password">le mot de passe</string>
+    <string name="passwordName">nom de mot de passe</string>
+    <string name="switchTxt">Qu\est-ce que cela fait?</string>
+    <string name="radioTxt">Bouton Radio</string>
+    <string name="checkTxt">case à cocher</string>
 </resources>
