@@ -21,6 +21,8 @@
         android:layout_height="69dp"
         android:text="@string/ButtonText"
         tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="383dp" />
+        tools:layout_editor_absoluteY="383dp"
+        android:onClick="startActivityForResult"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

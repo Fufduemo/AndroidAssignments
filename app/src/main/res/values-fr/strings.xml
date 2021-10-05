@@ -10,4 +10,11 @@
     <string name="switchTxt">Qu\est-ce que cela fait?</string>
     <string name="radioTxt">Bouton Radio</string>
     <string name="checkTxt">case à cocher</string>
+    <string name="switch_on">l\'interrupteur est allumé</string>
+    <string name="switch_off">"l'interrupteur est éteint "</string>
+    <string name="dialogue_message">"Souhaitez-vous terminer l'activité "</string>
+    <string name="dialogue_title">"activité de finition "</string>
+    <string name="Ok">d\'accord</string>
+    <string name="Cancel">Annuler</string>
+    <string name="List_response">"Voici ma réponse "</string>
 </resources>

@@ -36,4 +36,13 @@
         android:minHeight="60dp"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:text="@string/login"
+        android:onClick="onSaveClicked"
+
+        />
+
 </LinearLayout>
