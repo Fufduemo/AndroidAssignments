@@ -16,5 +16,7 @@
     <string name="Ok">Okay</string>
     <string name="Cancel">Cancel</string>
     <string name="List_response">Here is my response</string>
+    <string name="Start_chat">Start Chat</string>
+    <string name="send">Send</string>
 
 </resources>

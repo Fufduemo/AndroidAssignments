@@ -17,4 +17,6 @@
     <string name="Ok">d\'accord</string>
     <string name="Cancel">Annuler</string>
     <string name="List_response">"Voici ma réponse "</string>
+    <string name="Start_chat">Démarrer la discussion</string>
+    <string name="send">envoyer</string>
 </resources>

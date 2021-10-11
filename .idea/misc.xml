@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_chat_window.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_list_items.xml" value="0.5971751412429378" />
         <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/chat_row_incoming.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Fufduemo/AndroidStudioProjects/AndroidAssignments/app/src/main/res/layout/chat_row_outgoing.xml" value="0.33" />
       </map>
     </option>
   </component>

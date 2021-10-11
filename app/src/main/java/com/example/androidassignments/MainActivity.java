@@ -17,6 +17,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("MainActivity", "In onCreate()");
+        Button sButton = findViewById(R.id.startchat);
+        sButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.activity_chat_window);
+                Log.i("MainActivity","User clicked Start Chat");
+                Intent cIntent = new Intent(MainActivity.this, ChatWindow.class);
+                startActivity(cIntent);
+            }
+        });
         Button button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -24,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
                 startActivityForResult(intent,10);
             }
+
         });
     }
     @Override
@@ -39,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             toast.show(); //display your message box
         }
     }
+
     @Override
     protected void onStart(){
         super.onStart();

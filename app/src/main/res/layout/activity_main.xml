@@ -16,13 +16,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/startchat"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:onClick="onClickStartChat"
+        android:text="@string/Start_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button" />
+
+    <Button
         android:id="@+id/button"
-        android:layout_width="123dp"
-        android:layout_height="69dp"
-        android:text="@string/ButtonText"
-        tools:layout_editor_absoluteX="144dp"
-        tools:layout_editor_absoluteY="383dp"
+        android:layout_width="205dp"
+        android:layout_height="68dp"
         android:onClick="startActivityForResult"
-        />
+        android:text="@string/ButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/startchat"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
