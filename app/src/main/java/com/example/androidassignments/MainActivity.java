@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(intent,10);
             }
 
+        });
+        Button tButton = findViewById(R.id.toolbar);
+        tButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tIntent = new Intent(MainActivity.this, TestToolbar.class);
+                startActivity(tIntent);
+            }
         });
     }
     @Override

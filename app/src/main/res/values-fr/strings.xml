@@ -19,4 +19,14 @@
     <string name="List_response">"Voici ma réponse "</string>
     <string name="Start_chat">Démarrer la discussion</string>
     <string name="send">envoyer</string>
+    <string name="title_activity_test_toolbar">" Barre d'outils de test"</string>
+    <string name="first_fragment_label">" premier fragment"</string>
+    <string name="second_fragment_label">" deuxième fragment"</string>
+    <string name="next">suivant</string>
+    <string name="previous">précédent</string>
+    <string name="hello_first_fragment">" bonjour premier fragment"</string>
+    <string name="hello_second_fragment">" bonjour deuxième frame"</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">" Annuler"</string>
+    <string name="newmesage">" nouveau message"</string>
 </resources>

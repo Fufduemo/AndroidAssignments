@@ -13,14 +13,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments">
+        <activity
+            android:name=".ChatDataBaseHelper"
+            android:exported="false" />
+        <activity
+            android:name=".TestToolbar"
+            android:exported="true"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/Theme.AndroidAssignments.NoActionBar" />
 
         <meta-data
             android:name="android.support.MainActivity"
-            android:value="MainLayoutActivity"/>
+            android:value="MainLayoutActivity" />
+
         <activity
             android:name=".ChatWindow"
-            android:parentActivityName=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ListItemsActivity"
             android:exported="true" />
